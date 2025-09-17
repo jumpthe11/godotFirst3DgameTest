@@ -1,0 +1,17 @@
+D:\Games\3d_squash_the_creeps_starter\.godot\mono\temp\bin\Debug\Squash the Creeps (3D).deps.json
+D:\Games\3d_squash_the_creeps_starter\.godot\mono\temp\bin\Debug\Squash the Creeps (3D).runtimeconfig.json
+D:\Games\3d_squash_the_creeps_starter\.godot\mono\temp\bin\Debug\Squash the Creeps (3D).dll
+D:\Games\3d_squash_the_creeps_starter\.godot\mono\temp\bin\Debug\Squash the Creeps (3D).pdb
+D:\Games\3d_squash_the_creeps_starter\.godot\mono\temp\bin\Debug\GodotSharp.dll
+D:\Games\3d_squash_the_creeps_starter\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+D:\Games\3d_squash_the_creeps_starter\.godot\mono\temp\obj\Debug\Squash the Creeps (3D).csproj.AssemblyReference.cache
+D:\Games\3d_squash_the_creeps_starter\.godot\mono\temp\obj\Debug\Squash the Creeps (3D).GeneratedMSBuildEditorConfig.editorconfig
+D:\Games\3d_squash_the_creeps_starter\.godot\mono\temp\obj\Debug\Squash the Creeps (3D).AssemblyInfoInputs.cache
+D:\Games\3d_squash_the_creeps_starter\.godot\mono\temp\obj\Debug\Squash the Creeps (3D).AssemblyInfo.cs
+D:\Games\3d_squash_the_creeps_starter\.godot\mono\temp\obj\Debug\Squash the Creeps (3D).csproj.CoreCompileInputs.cache
+D:\Games\3d_squash_the_creeps_starter\.godot\mono\temp\obj\Debug\Squash t.495F87DD.Up2Date
+D:\Games\3d_squash_the_creeps_starter\.godot\mono\temp\obj\Debug\Squash the Creeps (3D).dll
+D:\Games\3d_squash_the_creeps_starter\.godot\mono\temp\obj\Debug\refint\Squash the Creeps (3D).dll
+D:\Games\3d_squash_the_creeps_starter\.godot\mono\temp\obj\Debug\Squash the Creeps (3D).pdb
+D:\Games\3d_squash_the_creeps_starter\.godot\mono\temp\obj\Debug\Squash the Creeps (3D).genruntimeconfig.cache
+D:\Games\3d_squash_the_creeps_starter\.godot\mono\temp\obj\Debug\ref\Squash the Creeps (3D).dll
