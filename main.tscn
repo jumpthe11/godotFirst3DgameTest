@@ -111,13 +111,12 @@ layout_mode = 1
 anchors_preset = -1
 anchor_right = 17.957
 anchor_bottom = 13.514
-offset_left = 250.0
-offset_top = 194.0
-offset_right = -240.28
-offset_bottom = -306.56
+offset_top = -2.0
+offset_right = -2.28003
+offset_bottom = -1.56
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.0196078, 0.105882, 0.160784, 0.321569)
+color = Color(0.0196078, 0.105882, 0.160784, 0.188235)
 
 [node name="Retry" type="Label" parent="UserInterface/Retry"]
 layout_mode = 1
