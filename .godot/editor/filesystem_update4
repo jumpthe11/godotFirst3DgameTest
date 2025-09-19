@@ -1,6 +1,8 @@
-res://main.tscn
-res://mob.gd
 res://mob.tscn
+res://mob.gd
+res://main.tscn
 res://player.tscn
 res://music_player.tscn
-res://Player.cs
+res://explosion_particles.tscn
+res://explosion_particles.gd
+res://Player.gd

@@ -13,12 +13,13 @@ config_version=5
 config/name="Squash the Creeps (3D)"
 config/description="In this game, your goal is to chase and kick out the creeps!"
 run/main_scene="uid://cj45lqfgkflf8"
-config/features=PackedStringArray("4.4", "C#")
+config/features=PackedStringArray("4.4")
 config/icon="res://icon.webp"
 
 [autoload]
 
 MusicPlayer="*res://music_player.tscn"
+ExplosionParticles="*res://explosion_particles.tscn"
 
 [display]
 
@@ -73,4 +74,6 @@ jump={
 
 [rendering]
 
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
 anti_aliasing/quality/msaa_3d=2

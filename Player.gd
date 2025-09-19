@@ -7,7 +7,8 @@ signal hit
 @export var bounce_impulse = 16
 
 var target_velocity = Vector3.ZERO
-
+@onready var ray_cast = $RayCast3D
+@onready var fake_shadow = $RayCast3D/Sprite3D
 
 func _physics_process(delta):
 	var direction = Vector3.ZERO
@@ -33,6 +34,7 @@ func _physics_process(delta):
 	# Vertical Velocity
 	if not is_on_floor(): # If in the air, fall towards the floor. Literally gravity
 		target_velocity.y = target_velocity.y - (fall_acceleration * delta)
+
 
 	# Moving the Character
 
@@ -64,6 +66,13 @@ func _physics_process(delta):
 				
 	velocity = target_velocity
 	move_and_slide()
+		#Gölge oluştur
+	if ray_cast.is_colliding():
+		var collision_point = ray_cast.get_collision_point()
+		fake_shadow.global_position.x = ray_cast.get_collision_point().x
+		fake_shadow.global_position.z = ray_cast.get_collision_point().z
+		fake_shadow.global_position.y = ray_cast.get_collision_point().y + 0.05
+
 
 func die():
 	hit.emit()

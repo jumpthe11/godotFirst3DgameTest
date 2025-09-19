@@ -1,3 +1,7 @@
+RayCast3D
+Sprite3D
+Decal
+Node3D
 AudioStreamPlayer
 Label
 ColorRect
@@ -8,8 +12,4 @@ Timer
 PathFollow3D
 Path3D
 MeshInstance3D
-Node3D
 VisibleOnScreenEnabler2D
-VisibleOnScreenNotifier3D
-VisibleOnScreenEnabler3D
-CharacterBody3D

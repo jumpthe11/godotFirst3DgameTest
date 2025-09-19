@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://cj45lqfgkflf8"]
+[gd_scene load_steps=13 format=3 uid="uid://cj45lqfgkflf8"]
 
 [ext_resource type="Script" uid="uid://d3ofpd5vaxhmg" path="res://main.gd" id="1_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://bo2rf5qdwmbv6" path="res://player.tscn" id="1_ig7tw"]
@@ -9,7 +9,12 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_7dm0k"]
 size = Vector3(60, 2, 60)
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lquwl"]
+shading_mode = 0
+diffuse_mode = 1
+
 [sub_resource type="BoxMesh" id="BoxMesh_ig7tw"]
+material = SubResource("StandardMaterial3D_lquwl")
 size = Vector3(60, 2, 60)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h2yge"]
