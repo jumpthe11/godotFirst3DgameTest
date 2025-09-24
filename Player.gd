@@ -25,7 +25,16 @@ func _physics_process(delta):
 	if direction != Vector3.ZERO:
 		direction = direction.normalized()
 		# Setting the basis property will affect the rotation of the node.
+		if $Pivot/Mika/AnimationPlayer.current_animation != "Run":
+			$Pivot/Mika/AnimationPlayer.play("Run")
 		$Pivot.basis = Basis.looking_at(direction)
+		$Pivot/Mika/AnimationPlayer.speed_scale = 2
+	else:
+		$Pivot/Mika/AnimationPlayer.speed_scale = 1
+		if $Pivot/Mika/AnimationPlayer.current_animation != "Idle":
+			$Pivot/Mika/AnimationPlayer.play("Idle")
+
+
 
 	# Ground Velocity
 	target_velocity.x = direction.x * speed
@@ -66,13 +75,13 @@ func _physics_process(delta):
 				
 	velocity = target_velocity
 	move_and_slide()
+	$Pivot.rotation.x = PI / 6 * velocity.y / jump_impulse
 		#Gölge oluştur
 	if ray_cast.is_colliding():
 		var collision_point = ray_cast.get_collision_point()
-		fake_shadow.global_position.x = ray_cast.get_collision_point().x
-		fake_shadow.global_position.z = ray_cast.get_collision_point().z
-		fake_shadow.global_position.y = ray_cast.get_collision_point().y + 0.05
-
+		fake_shadow.global_position.x = collision_point.x
+		fake_shadow.global_position.z = collision_point.z
+		fake_shadow.global_position.y = collision_point.y + 0.05
 
 func die():
 	hit.emit()

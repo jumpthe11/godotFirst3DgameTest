@@ -1,8 +1,8 @@
-res://mob.tscn
+res://playerMika.tscn
 res://mob.gd
+res://art/NewMika/CustomShader.gdshader
+res://mob.tscn
 res://main.tscn
-res://player.tscn
-res://music_player.tscn
 res://explosion_particles.tscn
-res://explosion_particles.gd
+res://player.tscn
 res://Player.gd

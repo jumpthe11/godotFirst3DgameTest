@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://mjttbhoh5tav"]
+
+[ext_resource type="Shader" uid="uid://wxlt7plrtp58" path="res://art/NewMika/CustomShader.gdshader" id="1_hmlwe"]
+
+[resource]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("1_hmlwe")
+shader_parameter/shadow_threshold = 0.5

@@ -46,3 +46,7 @@ func squash():
 	
 	squashed.emit()
 	queue_free()
+
+
+func _on_squashed() -> void:
+	pass # Replace with function body.

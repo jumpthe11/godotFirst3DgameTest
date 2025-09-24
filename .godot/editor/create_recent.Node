@@ -1,7 +1,11 @@
+AnimationTree
+AnimationPlayer
+Node3D
+MeshInstance3D
+CharacterBody3D
 RayCast3D
 Sprite3D
 Decal
-Node3D
 AudioStreamPlayer
 Label
 ColorRect
@@ -9,7 +13,3 @@ Control
 CollisionShape3D
 Area3D
 Timer
-PathFollow3D
-Path3D
-MeshInstance3D
-VisibleOnScreenEnabler2D
