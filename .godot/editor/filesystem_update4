@@ -1,8 +1,4 @@
-res://playerMika.tscn
+res://art/Mob/GehennaMob.tscn
 res://mob.gd
 res://art/NewMika/CustomShader.gdshader
-res://mob.tscn
-res://main.tscn
-res://explosion_particles.tscn
-res://player.tscn
-res://Player.gd
+res://Bayer-Dithering-Shader-2b088f6c03ecdf5f1dacd5e81b2a0bce8726caac/bayer_mat_dither.gdshader

@@ -10,6 +10,11 @@ var target_velocity = Vector3.ZERO
 @onready var ray_cast = $RayCast3D
 @onready var fake_shadow = $RayCast3D/Sprite3D
 
+func _ready():
+	# Apply cel-shading to this player character
+	if CelShadingManager:
+		CelShadingManager.apply_player_shading(self)
+
 func _physics_process(delta):
 	var direction = Vector3.ZERO
 

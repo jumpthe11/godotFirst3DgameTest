@@ -10,16 +10,17 @@ config_version=5
 
 [application]
 
-config/name="Squash the Creeps (3D)"
+config/name="Squash the Gehenners"
 config/description="In this game, your goal is to chase and kick out the creeps!"
 run/main_scene="uid://cj45lqfgkflf8"
 config/features=PackedStringArray("4.4")
-config/icon="res://icon.webp"
+config/icon="uid://77ejgnwjqdg6"
 
 [autoload]
 
 MusicPlayer="*res://music_player.tscn"
 ExplosionParticles="*res://explosion_particles.tscn"
+CelShadingManager="*res://CelShadingManager.gd"
 
 [display]
 

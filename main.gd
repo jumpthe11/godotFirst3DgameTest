@@ -6,6 +6,12 @@ extends Node
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	$UserInterface/Retry.hide()
+	
+	# Apply neutral cel-shading to environment objects
+	if CelShadingManager:
+		# Apply to ground and cylinders for consistent look
+		CelShadingManager.apply_neutral_shading($Ground)
+		CelShadingManager.apply_neutral_shading($Cylinders)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

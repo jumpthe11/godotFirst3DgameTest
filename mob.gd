@@ -9,10 +9,14 @@ extends CharacterBody3D
 
 signal squashed
 
+func _ready():
+	# Apply cel-shading to this enemy character
+	if CelShadingManager:
+		CelShadingManager.apply_enemy_shading(self)
 
 func _physics_process(_delta):
 	move_and_slide()
-
+	$Pivot/Character/AnimationPlayer.play("bone_root|CH0071_Move_Ing|Base Layer")
 # This function will be called from the Main scene.
 func initialize(start_position, player_position):
 	# We position the mob by placing it at start_position
